@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Talkie-Talkie</string>
+    <string name="mainTittle">Hola </string>
+    <string name="textCard">Logros</string>
+    <string name="textPoints">Puntos</string>
+    <string name="valuePoints">300</string>
+    <string name="textGoal">Meta Diaria</string>
+    <string name="valueGoal">200</string>
+    <string name="textStreak">Racha</string>
+    <string name="valueStreal">2 d</string>
+    <string name="textEq">Configurar dispositivo</string>
+    <string name="textSens">Escucha</string>
+    <string name="textTalk">Habla</string>
+    <string name="textAdd">Agregar audios</string>
+    <string name="noteEq">Presiona la pantalla cuando sientas la vibración</string>
+    <string name="textTime">Tiempo</string>
+    <string name="tittleSectionEscucha">Escucha</string>
+    <string name="tittleSectionHabla">Habla</string>
+    <string name="intenText"> Intensidad</string>
+    <string name="freqText">Frecuencia</string>
+    <string name="orderText">Orden</string>
+    <string name="vocalText">Vocales</string>
+    <string name="rhythmText"> Duración Larga</string>
+    <string name="imitarText">Duración Staccato</string>
+    <string name="switchName">Admin</string>
+    <string name="todo">TODO</string>
+    <string name="puntos_posibles">Puntos posibles :</string>
+    <string name="puntos_totales">Puntos totales</string>
+    <string-array name="vocales_array">
+        <item>a</item>
+        <item>e</item>
+        <item>i</item>
+        <item>o</item>
+        <item>u</item>
+    </string-array>
+</resources>

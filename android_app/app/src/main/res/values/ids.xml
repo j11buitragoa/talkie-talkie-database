@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ingresarTiempoEditText" type="id" />
+    <item name="salir" type="id" />
+    <item name="ingresarTiempoSilencio" type="id" />
+    <item name="Cuantos" type="id" />
+    <item name="inicioButton" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="textView4" type="id" />
+    <item name="silenceImg" type="id" />
+    <item name="imagenPuntos" type="id" />
+    <item name="seguir" type="id" />
+    <item name="button" type="id" />
+    <item name="silencioBar" type="id" />
+    <item name="puntos" type="id" />
+    <item name="progressBarVocal" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="spinnertono" type="id" />
+    <item name="puntostono" type="id" />
+    <item name="tono" type="id" />
+    <item name="linearLayout" type="id" />
+    <item name="star" type="id" />
+    <item name="indicador" type="id" />
+    <item name="valuePoints" type="id" />
+</resources>

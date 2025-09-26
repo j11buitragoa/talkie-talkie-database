@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Ready_Int"
+    android:background="@drawable/fondan2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="600dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingHorizontal="60dp"
+                    android:text="Vas a mantener la pronunciación de una vocal"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingHorizontal="30dp"
+                    android:text="El círculo azul representa tu voz asi que sera más grande si hablas más fuerte y si dices la vocal con menos fuerza el círculo se hará más pequeño"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingHorizontal="30dp"
+                    android:text="El anillo verde es tu objetivo, debes hacer que el círculo azul alcance el verde"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="187dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/img_9" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:text="Cuando te aparezca"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/img_10"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Podrás avanzar con el siguiente ejercicio"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/okButton"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="OK"
+                    android:textSize="25sp"
+                    app:cornerRadius="20dp"/>
+
+                <Button
+                    android:id="@+id/adminButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/dark_grey"
+                    android:text="Admin"
+                    android:textSize="15sp"
+                    app:cornerRadius="10dp"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

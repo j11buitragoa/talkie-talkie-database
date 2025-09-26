@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/escucha_bkg"
+    tools:context=".Habla_Frame">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittleSectionHabla"
+        android:gravity="end"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="355dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="30dp"
+        app:cardBackgroundColor="@color/green"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/intensityButton"
+                android:layout_width="289dp"
+                android:layout_height="@dimen/sizeFrameEscucha"
+                android:layout_marginStart="@dimen/marginExt"
+                android:layout_marginTop="@dimen/marginExt"
+                android:layout_marginEnd="@dimen/marginExt"
+                android:layout_marginBottom="@dimen/marginInt"
+                android:backgroundTint="@color/white"
+                android:drawableTint="@color/dark_grey"
+                android:gravity="start"
+                android:paddingStart="40dp"
+                android:paddingTop="14dp"
+                android:text="@string/intenText"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/sizeTextEscucha"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/HtiempoButton"
+                android:layout_width="288dp"
+                android:layout_height="@dimen/sizeFrameEscucha"
+                android:layout_marginStart="@dimen/marginExt"
+                android:layout_marginTop="@dimen/marginInt"
+                android:layout_marginEnd="@dimen/marginExt"
+                android:layout_marginBottom="@dimen/marginInt"
+                android:backgroundTint="@color/white"
+                android:drawableTint="@color/dark_grey"
+                android:gravity="start"
+                android:paddingStart="40dp"
+                android:paddingTop="14dp"
+                android:text="@string/rhythmText"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/sizeTextEscucha"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/HfrecuenciaButton"
+                android:layout_width="288dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="@dimen/marginExt"
+                android:layout_marginTop="@dimen/marginInt"
+                android:layout_marginEnd="@dimen/marginExt"
+                android:layout_marginBottom="@dimen/marginInt"
+                android:backgroundTint="@color/white"
+                android:drawableTint="@color/dark_grey"
+                android:gravity="start"
+                android:paddingStart="40dp"
+                android:paddingTop="14dp"
+                android:text="@string/imitarText"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/sizeTextEscucha"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/dark_grey"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:text="Volver"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

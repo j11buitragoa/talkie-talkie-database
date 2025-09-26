@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:background="@drawable/rounded_white_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="30dp"
+        android:padding="0dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/usuarioN"
+                    android:layout_width="264dp"
+                    android:layout_height="59dp"
+                    android:paddingStart="15dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:hint="Usuario"
+                    android:textColorHint="@color/dark_grey"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Digite una contraseña de mínimo 6 caracteres"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/contraseñaN"
+                    android:layout_width="272dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="15dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:ems="10"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+                    android:hint="Contraseña"
+                    android:textColorHint="@color/dark_grey"
+                    android:inputType="textPassword"/>
+
+                <TextView
+                    android:id="@+id/infoAdd"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Información adicional"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/nameN"
+                    android:layout_width="265dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Nombre completo"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/dark_grey"
+                    android:inputType="textPersonName"
+                    android:paddingStart="20dp"/>
+
+
+                <EditText
+                    android:id="@+id/edadN"
+                    android:layout_width="150dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Edad"
+                    android:paddingStart="20dp"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/dark_grey"
+                    android:inputType="numberSigned"/>
+
+                <Spinner
+                    android:id="@+id/spinnerSexo"
+                    android:layout_width="265dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/custom_spinner"
+                    android:layout_marginTop="20dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerDevice"
+                    android:layout_width="265dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/custom_spinner"
+                    android:layout_marginTop="20dp"/>
+
+                <Switch
+                    android:id="@+id/switchAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:text="ADMIN   "
+                    android:textStyle="bold"
+                    android:thumb="@drawable/custom_thumb"
+                    android:track="@drawable/custom_track"
+                    android:textSize="15sp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/buttonCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:backgroundTint="@color/blue"
+                    android:layout_margin="5dp"
+                    android:text="Cancelar"
+                    android:textSize="22sp"
+                    app:cornerRadius="30dp"/>
+                <Button
+                    android:id="@+id/buttonRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:backgroundTint="@color/blue"
+                    android:layout_margin="5dp"
+                    android:text="Registrar"
+                    android:textSize="22sp"
+                    app:cornerRadius="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

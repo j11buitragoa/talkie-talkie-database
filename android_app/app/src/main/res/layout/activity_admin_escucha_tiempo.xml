@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rounded_white_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/spinnerLevel"
+                android:layout_width="265dp"
+                android:layout_height="53dp"
+                android:background="@drawable/custom_spinner"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textDuracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Duración del tono [ms]"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editDuracion"
+                android:layout_width="272dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="500"
+                android:textAlignment="center"
+                android:background="@drawable/custom_edittext"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textFreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Frecuencia de tono [Hz]"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editFreq"
+                android:layout_width="272dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="300"
+                android:textAlignment="center"
+                android:background="@drawable/custom_edittext"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textTimeBetweenTones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Tiempo entre tonos [ms]"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTimeBetweenTones"
+                android:layout_width="272dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="1000"
+                android:textAlignment="center"
+                android:background="@drawable/custom_edittext"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textIntentos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Intentos por nivel"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editIntentos"
+                android:layout_width="272dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="4"
+                android:textAlignment="center"
+                android:background="@drawable/custom_edittext"
+                android:inputType="number"/>
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/dark_grey"
+                android:layout_marginTop="30dp"
+                android:text="Guardar"
+                android:textSize="25sp"
+                app:cornerRadius="20dp"/>
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_grey"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Volver"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:layout_marginTop="20dp"
+        android:padding="0dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:backgroundTint="@color/pink"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="@dimen/marginExt"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:textSize="@dimen/sizeTextEscucha"
+            android:hint="Nombre de grabación" />
+
+        <Button
+            android:id="@+id/buttonStartRecording"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="@dimen/marginExt"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:backgroundTint="@color/purple"
+            android:text="Iniciar Grabación" />
+
+        <Button
+            android:id="@+id/buttonStopRecording"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:backgroundTint="@color/purple"
+            android:text="Guardar Grabación" />
+
+        <Button
+            android:id="@+id/buttonrepro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:backgroundTint="@color/purple"
+            android:text="Reproducir" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:backgroundTint="@color/purple"
+            android:text="Cancelar" />
+        <Button
+            android:id="@+id/buttonReady"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginExt"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/marginExt"
+            android:layout_marginBottom="@dimen/marginInt"
+            android:backgroundTint="@color/purple"
+            android:text="Listo" />
+    </LinearLayout>
+    </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

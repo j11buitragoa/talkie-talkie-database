@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:id="@+id/duracion_staccato0"
+    tools:context=".duracion_staccato">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dura_largo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".duracion_staccato">
+
+    <LinearLayout
+        android:id="@+id/patoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"></LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="263dp"/>
+
+    <TextView
+        android:id="@+id/silenceCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/custom_progress_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Puntos: "
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/trofeo"
+        android:layout_width="97dp"
+        android:layout_height="175dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/trofeo"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="41dp" />
+    <ImageView
+        android:id="@+id/silence"
+        android:layout_width="128dp"
+        android:layout_height="116dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/silenciop"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="233dp"  />
+
+            <Button
+                android:id="@+id/startSpeechBtn"
+                android:layout_width="219dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="@dimen/marginExt"
+                android:layout_marginTop="@dimen/marginExt"
+                android:layout_marginEnd="@dimen/marginExt"
+                android:layout_marginBottom="@dimen/marginInt"
+                android:backgroundTint="@color/blue"
+                android:text="Comenzar"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.517"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.452" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

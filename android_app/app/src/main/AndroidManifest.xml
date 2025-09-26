@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".Points"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/loogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InterfazFinal"
+        tools:targetApi="31">
+        <activity
+            android:name=".confi_dur_largo"
+            android:exported="false" />
+        <activity
+            android:name=".repro_dur_largo"
+            android:exported="false" />
+        <activity
+            android:name=".dura_largo"
+            android:exported="false" />
+        <activity
+            android:name=".grabaciones"
+            android:exported="false" />
+        <activity
+            android:name=".repro_staccato"
+            android:exported="false" />
+        <activity
+            android:name=".confi_dstc"
+            android:exported="false" />
+        <activity
+            android:name=".duracion_staccato"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_frec2"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_Tono"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_duracion"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_Int"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_Orden"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_frec1"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_Tiempo"
+            android:exported="false" />
+        <activity
+            android:name=".tono"
+            android:exported="false" />
+        <activity
+            android:name=".admin_tono"
+            android:exported="false" />
+        <activity
+            android:name=".duracion"
+            android:exported="false" />
+        <activity
+            android:name=".cofi_dur"
+            android:exported="false" />
+        <activity
+            android:name=".Escucha_Vocales"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Audios_Frame"
+            android:exported="false" />
+        <activity
+            android:name=".Habla_Frame"
+            android:exported="false" />
+        <activity
+            android:name=".Escucha_Frame"
+            android:exported="false" />
+        <activity
+            android:name=".Habla_Intensidad"
+            android:exported="false" />
+        <activity
+            android:name=".Vibrometria"
+            android:exported="false" />
+        <activity
+            android:name=".Escucha_Orden"
+            android:exported="false" />
+        <activity
+            android:name=".Escucha_Frecuencia"
+            android:exported="false" />
+        <activity
+            android:name=".Escucha_Tiempo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

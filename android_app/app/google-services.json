@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "26767337275",
+    "firebase_url": "https://talk-talkie-default-rtdb.firebaseio.com",
+    "project_id": "talk-talkie",
+    "storage_bucket": "talk-talkie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26767337275:android:86444041f7ff6236c9f91e",
+        "android_client_info": {
+          "package_name": "uni.tesis.interfazfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd78Nr5a8Yve0sI3xG2upnuxmSPGjnETU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Ready_frec2"
+    android:background="@drawable/fondan2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="600dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="731dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="208dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Vas a sentir vibraciones"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="En"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="150dp"
+                        android:layout_height="90dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/img_3" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Indica en la pantalla si las vibraciones de la derecha fueron iguales o diferentes a las de la izquierda"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Si las vibraciones fueron diferentes indica si la ultima vibracion fue "
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="35dp">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="0dp"
+                        android:layout_height="39dp"
+                        android:layout_marginStart="-150dp"
+                        android:layout_marginEnd="170dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:text="Aguda         o"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="0dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="-580dp"
+                        android:layout_marginEnd="-170dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:text="Grave"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="357dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="35dp">
+
+                    <ImageView
+                        android:id="@+id/imageView77"
+                        android:layout_width="181dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="150dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/img_8" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="179dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="-150dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/img_7" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/okButton"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="OK"
+                    android:textSize="25sp"
+                    app:cornerRadius="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
