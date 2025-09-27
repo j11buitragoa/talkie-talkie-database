@@ -85,9 +85,6 @@ config/         → Configuration files (Firebase example)
 - Mobile app to **register and query users** in real time.  
 - **Firebase integration** for authentication and cloud storage.  
 - Python modules for **data exploration and visualization**.  
-- Example output (from analysis notebooks):  
-  ![Sample Plot](docs/example_plot.png)
-
 ---
 
 ## 📑 Documentation
