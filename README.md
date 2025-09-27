@@ -1,5 +1,10 @@
 # 📊 Talkie-Talkie Database & App
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Completed-blue)
+![Python](https://img.shields.io/badge/Python-3.11+-yellow)
+![Android](https://img.shields.io/badge/Android-Gradle%20%7C%20Java-brightgreen)
+
 > Thesis project (2024) combining the development of an **Android application**, a **Firebase database**, and a **Python data analysis module**.  
 > The goal was to design a system to **store, query, and visualize user information in real time**, integrating mobile technologies with data science.
 
@@ -85,6 +90,10 @@ config/         → Configuration files (Firebase example)
 - Mobile app to **register and query users** in real time.  
 - **Firebase integration** for authentication and cloud storage.  
 - Python modules for **data exploration and visualization**.  
+### 🖼️ System Architecture
+The diagram below illustrates how the Android app, Firebase database, and Python module interact:
+
+![System Diagram](docs/system_diagram.png)
 ---
 
 ## 📑 Documentation
